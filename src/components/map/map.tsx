@@ -50,7 +50,7 @@ const MapComponent: FC<PropsWithChildren<MapProps>> = ({
 
 const MapWrapper: FC<PropsWithChildren<MapProps>> = (props) => {
     return (
-        <Wrapper apiKey="AIzaSyDCUu59t9C0L4_60lDhJ7cQhKtkDM4xDmQ">{/*  */}
+        <Wrapper apiKey="YOUR_API_KEY">{/*  */}
             <MapComponent {...props} />
         </Wrapper>
     );
